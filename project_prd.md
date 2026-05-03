@@ -46,8 +46,21 @@
 | LLM 보조 | Ollama + Gemma | 무료 |
 | Framework | LangChain | 무료 |
 | 프론트엔드 | 기존 HTML 재활용 | 무료 |
-| 메인 AI | Claude API | 토큰 최적화 |
+| 메인 AI | Claude Sonnet | 토큰 최적화 |
+| 보조 AI | Claude Haiku | 저비용 |
 | 서버 | 로컬 PC | 무료 |
+
+### Claude 모델 사용 전략
+
+| 작업 | 모델 | 이유 |
+|------|------|------|
+| 상담편지 작성 | Sonnet | 품질·감성 필요 |
+| Torey Hayden 글쓰기 | Sonnet | 창의성 필요 |
+| 심리 분석 보고서 | Sonnet | 전문성 필요 |
+| RAG 검색·처리 | Haiku | 단순 작업 |
+| 자료 분류·정리 | Haiku | 반복 작업 |
+| 간단한 질문 응답 | Haiku | 비용 절감 |
+| Opus | 미사용 | 비용 과다 |
 
 ---
 
